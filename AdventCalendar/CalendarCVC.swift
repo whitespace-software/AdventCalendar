@@ -50,4 +50,11 @@ class CalendarCVC: UICollectionViewController {
             return cell
         }
     }
+    
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.row + 1 == dayToday {
+            clickedToday = !clickedToday
+            collectionView.reloadData()
+        }
+    }
 }
