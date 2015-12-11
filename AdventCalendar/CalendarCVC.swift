@@ -21,8 +21,9 @@ class CalendarCVC: UICollectionViewController {
         self.collectionView!.backgroundColor = UIColor.whiteColor()
         self.title = "Swift Advent Calendar"
         
-        var dmy = NSDate().splitYMD()
-        dayToday = dmy[2]
+        setDayToday()
+        let btn = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Reply, target: self, action: "clickCheat")
+        navigationItem.rightBarButtonItem = btn
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,7 +33,23 @@ class CalendarCVC: UICollectionViewController {
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
+    
+    func clickCheat()
+    {
+        if dayToday == 100 {
+            setDayToday()
+        } else {
+            dayToday = 100
+        }
+        collectionView?.reloadData()
+    }
 
+    func setDayToday()
+    {
+        var dmy = NSDate().splitYMD()
+        dayToday = dmy[2]
+
+    }
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 25
@@ -55,6 +72,15 @@ class CalendarCVC: UICollectionViewController {
         if indexPath.row + 1 == dayToday {
             clickedToday = !clickedToday
             collectionView.reloadData()
+        }
+    }
+    
+    func collectionView(collectionView : UICollectionView,layout collectionViewLayout:UICollectionViewLayout,sizeForItemAtIndexPath indexPath:NSIndexPath) -> CGSize
+    {
+        if indexPath.row + 1 == 25 {
+            return CGSizeMake(200.0, 200.0)
+        } else {
+            return CGSizeMake(50, 50)
         }
     }
 }
