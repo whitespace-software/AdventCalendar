@@ -40,6 +40,29 @@
                                     <outlet property="label" destination="upp-iM-68m" id="OgC-GC-lxY"/>
                                 </connections>
                             </collectionViewCell>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PictureCell" id="Ciz-aC-Rog" customClass="PictureCell" customModule="AdventCalendar" customModuleProvider="target">
+                                <rect key="frame" x="61" y="64" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O7y-m3-Y3S">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="O7y-m3-Y3S" secondAttribute="trailing" id="0j8-YY-RIs"/>
+                                    <constraint firstAttribute="bottom" secondItem="O7y-m3-Y3S" secondAttribute="bottom" id="i3M-7x-udK"/>
+                                    <constraint firstItem="O7y-m3-Y3S" firstAttribute="leading" secondItem="Ciz-aC-Rog" secondAttribute="leading" id="kXP-nl-7fa"/>
+                                    <constraint firstItem="O7y-m3-Y3S" firstAttribute="top" secondItem="Ciz-aC-Rog" secondAttribute="top" id="vT0-YY-3jW"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="image" destination="O7y-m3-Y3S" id="2sY-d0-7Zi"/>
+                                </connections>
+                            </collectionViewCell>
                         </cells>
                         <connections>
                             <outlet property="dataSource" destination="3m3-7R-jNT" id="iHm-bo-ux5"/>

@@ -12,11 +12,17 @@ import UIKit
 
 class CalendarCVC: UICollectionViewController {
 
+    var dayToday : Int = 0
+    var clickedToday = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.collectionView!.backgroundColor = UIColor.whiteColor()
-        self.title = "Advent Calendar"
+        self.title = "Swift Advent Calendar"
+        
+        var dmy = NSDate().splitYMD()
+        dayToday = dmy[2]
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,12 +39,15 @@ class CalendarCVC: UICollectionViewController {
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(CalendarCell.getReuseIdentifier(), forIndexPath: indexPath)
-        
-        if let ccell = cell as? CalendarCell {
-            let dayno = indexPath.row + 1
-            ccell.setText( dayno.description )
+        let dayno = indexPath.row + 1
+        if dayno > dayToday || ( dayno == dayToday && !clickedToday ) {
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(CalendarCell.getReuseIdentifier(), forIndexPath: indexPath) as! CalendarCell
+            cell.setText( dayno.description )
+            return cell
+        } else {
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(PictureCell.getReuseIdentifier(), forIndexPath: indexPath) as! PictureCell
+            cell.setImagePng( "Advent\(dayno)" )
+            return cell
         }
-        return cell
     }
 }

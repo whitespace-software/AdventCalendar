@@ -15,7 +15,8 @@ class CalendarCell: UICollectionViewCell {
     func setText( str : String )
     {
         label.text = str
-        print( "set to " + str )
     }
     @IBOutlet weak var label: UILabel!
 }
+
+

@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E816C0041C1ADBD400445B9C /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816C0031C1ADBD400445B9C /* PictureCell.swift */; };
+		E816C0061C1ADC1600445B9C /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816C0051C1ADC1600445B9C /* NSDate.swift */; };
+		E816C0081C1AE1B500445B9C /* Advent1.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0071C1AE1B500445B9C /* Advent1.png */; };
+		E816C00A1C1AE33900445B9C /* Advent2.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0091C1AE33900445B9C /* Advent2.png */; };
+		E816C00C1C1AE46600445B9C /* Advent3.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C00B1C1AE46600445B9C /* Advent3.png */; };
+		E816C0101C1AE4C700445B9C /* Advent6.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C00D1C1AE4C700445B9C /* Advent6.png */; };
+		E816C0111C1AE4C700445B9C /* Advent4.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C00E1C1AE4C700445B9C /* Advent4.png */; };
+		E816C0121C1AE4C700445B9C /* Advent5.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C00F1C1AE4C700445B9C /* Advent5.png */; };
+		E816C0171C1AE5EA00445B9C /* Advent7.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0131C1AE5EA00445B9C /* Advent7.png */; };
+		E816C0181C1AE5EA00445B9C /* Advent8.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0141C1AE5EA00445B9C /* Advent8.png */; };
+		E816C0191C1AE5EA00445B9C /* Advent9.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0151C1AE5EA00445B9C /* Advent9.png */; };
+		E816C01A1C1AE5EA00445B9C /* Advent10.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0161C1AE5EA00445B9C /* Advent10.png */; };
+		E816C0201C1AE6CA00445B9C /* Advent11.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C01B1C1AE6CA00445B9C /* Advent11.png */; };
+		E816C0211C1AE6CA00445B9C /* Advent12.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C01C1C1AE6CA00445B9C /* Advent12.png */; };
+		E816C0221C1AE6CA00445B9C /* Advent13.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C01D1C1AE6CA00445B9C /* Advent13.png */; };
+		E816C0231C1AE6CA00445B9C /* Advent14.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C01E1C1AE6CA00445B9C /* Advent14.png */; };
+		E816C0241C1AE6CA00445B9C /* Advent15.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C01F1C1AE6CA00445B9C /* Advent15.png */; };
+		E816C02A1C1AE78A00445B9C /* Advent16.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0251C1AE78A00445B9C /* Advent16.png */; };
+		E816C02B1C1AE78A00445B9C /* Advent17.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0261C1AE78A00445B9C /* Advent17.png */; };
+		E816C02C1C1AE78A00445B9C /* Advent18.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0271C1AE78A00445B9C /* Advent18.png */; };
+		E816C02D1C1AE78A00445B9C /* Advent19.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0281C1AE78A00445B9C /* Advent19.png */; };
+		E816C02E1C1AE78A00445B9C /* Advent20.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0291C1AE78A00445B9C /* Advent20.png */; };
+		E816C0331C1AE8EC00445B9C /* Advent21.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C02F1C1AE8EC00445B9C /* Advent21.png */; };
+		E816C0341C1AE8EC00445B9C /* Advent22.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0301C1AE8EC00445B9C /* Advent22.png */; };
+		E816C0351C1AE8EC00445B9C /* Advent23.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0311C1AE8EC00445B9C /* Advent23.png */; };
+		E816C0361C1AE8EC00445B9C /* Advent24.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0321C1AE8EC00445B9C /* Advent24.png */; };
+		E816C0381C1AE97500445B9C /* Advent25.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0371C1AE97500445B9C /* Advent25.png */; };
 		E8AD0A451C19F10F00367DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AD0A441C19F10F00367DE5 /* AppDelegate.swift */; };
 		E8AD0A4A1C19F10F00367DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AD0A481C19F10F00367DE5 /* Main.storyboard */; };
 		E8AD0A4C1C19F10F00367DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AD0A4B1C19F10F00367DE5 /* Assets.xcassets */; };
@@ -27,6 +54,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E816C0031C1ADBD400445B9C /* PictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		E816C0051C1ADC1600445B9C /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
+		E816C0071C1AE1B500445B9C /* Advent1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent1.png; sourceTree = "<group>"; };
+		E816C0091C1AE33900445B9C /* Advent2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent2.png; sourceTree = "<group>"; };
+		E816C00B1C1AE46600445B9C /* Advent3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent3.png; sourceTree = "<group>"; };
+		E816C00D1C1AE4C700445B9C /* Advent6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent6.png; sourceTree = "<group>"; };
+		E816C00E1C1AE4C700445B9C /* Advent4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent4.png; sourceTree = "<group>"; };
+		E816C00F1C1AE4C700445B9C /* Advent5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent5.png; sourceTree = "<group>"; };
+		E816C0131C1AE5EA00445B9C /* Advent7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent7.png; sourceTree = "<group>"; };
+		E816C0141C1AE5EA00445B9C /* Advent8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent8.png; sourceTree = "<group>"; };
+		E816C0151C1AE5EA00445B9C /* Advent9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent9.png; sourceTree = "<group>"; };
+		E816C0161C1AE5EA00445B9C /* Advent10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent10.png; sourceTree = "<group>"; };
+		E816C01B1C1AE6CA00445B9C /* Advent11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent11.png; sourceTree = "<group>"; };
+		E816C01C1C1AE6CA00445B9C /* Advent12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent12.png; sourceTree = "<group>"; };
+		E816C01D1C1AE6CA00445B9C /* Advent13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent13.png; sourceTree = "<group>"; };
+		E816C01E1C1AE6CA00445B9C /* Advent14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent14.png; sourceTree = "<group>"; };
+		E816C01F1C1AE6CA00445B9C /* Advent15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent15.png; sourceTree = "<group>"; };
+		E816C0251C1AE78A00445B9C /* Advent16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent16.png; sourceTree = "<group>"; };
+		E816C0261C1AE78A00445B9C /* Advent17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent17.png; sourceTree = "<group>"; };
+		E816C0271C1AE78A00445B9C /* Advent18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent18.png; sourceTree = "<group>"; };
+		E816C0281C1AE78A00445B9C /* Advent19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent19.png; sourceTree = "<group>"; };
+		E816C0291C1AE78A00445B9C /* Advent20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent20.png; sourceTree = "<group>"; };
+		E816C02F1C1AE8EC00445B9C /* Advent21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent21.png; sourceTree = "<group>"; };
+		E816C0301C1AE8EC00445B9C /* Advent22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent22.png; sourceTree = "<group>"; };
+		E816C0311C1AE8EC00445B9C /* Advent23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent23.png; sourceTree = "<group>"; };
+		E816C0321C1AE8EC00445B9C /* Advent24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent24.png; sourceTree = "<group>"; };
+		E816C0371C1AE97500445B9C /* Advent25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent25.png; sourceTree = "<group>"; };
 		E8AD0A411C19F10F00367DE5 /* AdventCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AD0A441C19F10F00367DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8AD0A491C19F10F00367DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +133,31 @@
 		E8AD0A431C19F10F00367DE5 /* AdventCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				E816C0371C1AE97500445B9C /* Advent25.png */,
+				E816C02F1C1AE8EC00445B9C /* Advent21.png */,
+				E816C0301C1AE8EC00445B9C /* Advent22.png */,
+				E816C0311C1AE8EC00445B9C /* Advent23.png */,
+				E816C0321C1AE8EC00445B9C /* Advent24.png */,
+				E816C0251C1AE78A00445B9C /* Advent16.png */,
+				E816C0261C1AE78A00445B9C /* Advent17.png */,
+				E816C0271C1AE78A00445B9C /* Advent18.png */,
+				E816C0281C1AE78A00445B9C /* Advent19.png */,
+				E816C0291C1AE78A00445B9C /* Advent20.png */,
+				E816C01B1C1AE6CA00445B9C /* Advent11.png */,
+				E816C01C1C1AE6CA00445B9C /* Advent12.png */,
+				E816C01D1C1AE6CA00445B9C /* Advent13.png */,
+				E816C01E1C1AE6CA00445B9C /* Advent14.png */,
+				E816C01F1C1AE6CA00445B9C /* Advent15.png */,
+				E816C0131C1AE5EA00445B9C /* Advent7.png */,
+				E816C0141C1AE5EA00445B9C /* Advent8.png */,
+				E816C0151C1AE5EA00445B9C /* Advent9.png */,
+				E816C0161C1AE5EA00445B9C /* Advent10.png */,
+				E816C00D1C1AE4C700445B9C /* Advent6.png */,
+				E816C00E1C1AE4C700445B9C /* Advent4.png */,
+				E816C00F1C1AE4C700445B9C /* Advent5.png */,
+				E816C0071C1AE1B500445B9C /* Advent1.png */,
+				E816C0091C1AE33900445B9C /* Advent2.png */,
+				E816C00B1C1AE46600445B9C /* Advent3.png */,
 				E8AD0A441C19F10F00367DE5 /* AppDelegate.swift */,
 				E8AD0A481C19F10F00367DE5 /* Main.storyboard */,
 				E8AD0A4B1C19F10F00367DE5 /* Assets.xcassets */,
@@ -86,6 +165,8 @@
 				E8AD0A501C19F10F00367DE5 /* Info.plist */,
 				E8AD0A641C19F14A00367DE5 /* CalendarCVC.swift */,
 				E8AD0A661C19F2C700367DE5 /* CalendarCell.swift */,
+				E816C0031C1ADBD400445B9C /* PictureCell.swift */,
+				E816C0051C1ADC1600445B9C /* NSDate.swift */,
 			);
 			path = AdventCalendar;
 			sourceTree = "<group>";
@@ -181,7 +262,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8AD0A4F1C19F10F00367DE5 /* LaunchScreen.storyboard in Resources */,
+				E816C0241C1AE6CA00445B9C /* Advent15.png in Resources */,
+				E816C0191C1AE5EA00445B9C /* Advent9.png in Resources */,
+				E816C02D1C1AE78A00445B9C /* Advent19.png in Resources */,
+				E816C0381C1AE97500445B9C /* Advent25.png in Resources */,
+				E816C0331C1AE8EC00445B9C /* Advent21.png in Resources */,
+				E816C00C1C1AE46600445B9C /* Advent3.png in Resources */,
+				E816C0231C1AE6CA00445B9C /* Advent14.png in Resources */,
+				E816C0341C1AE8EC00445B9C /* Advent22.png in Resources */,
+				E816C0101C1AE4C700445B9C /* Advent6.png in Resources */,
+				E816C0081C1AE1B500445B9C /* Advent1.png in Resources */,
+				E816C0361C1AE8EC00445B9C /* Advent24.png in Resources */,
+				E816C0221C1AE6CA00445B9C /* Advent13.png in Resources */,
+				E816C0201C1AE6CA00445B9C /* Advent11.png in Resources */,
+				E816C02E1C1AE78A00445B9C /* Advent20.png in Resources */,
+				E816C0111C1AE4C700445B9C /* Advent4.png in Resources */,
+				E816C0211C1AE6CA00445B9C /* Advent12.png in Resources */,
+				E816C00A1C1AE33900445B9C /* Advent2.png in Resources */,
+				E816C01A1C1AE5EA00445B9C /* Advent10.png in Resources */,
+				E816C0181C1AE5EA00445B9C /* Advent8.png in Resources */,
+				E816C02A1C1AE78A00445B9C /* Advent16.png in Resources */,
 				E8AD0A4C1C19F10F00367DE5 /* Assets.xcassets in Resources */,
+				E816C0351C1AE8EC00445B9C /* Advent23.png in Resources */,
+				E816C0171C1AE5EA00445B9C /* Advent7.png in Resources */,
+				E816C02B1C1AE78A00445B9C /* Advent17.png in Resources */,
+				E816C0121C1AE4C700445B9C /* Advent5.png in Resources */,
+				E816C02C1C1AE78A00445B9C /* Advent18.png in Resources */,
 				E8AD0A4A1C19F10F00367DE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,9 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E816C0041C1ADBD400445B9C /* PictureCell.swift in Sources */,
 				E8AD0A451C19F10F00367DE5 /* AppDelegate.swift in Sources */,
 				E8AD0A671C19F2C700367DE5 /* CalendarCell.swift in Sources */,
 				E8AD0A651C19F14A00367DE5 /* CalendarCVC.swift in Sources */,
+				E816C0061C1ADC1600445B9C /* NSDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +500,7 @@
 				E8AD0A601C19F10F00367DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8AD0A611C19F10F00367DE5 /* Build configuration list for PBXNativeTarget "AdventCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +509,7 @@
 				E8AD0A631C19F10F00367DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
