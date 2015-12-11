@@ -34,6 +34,7 @@
 		E816C0351C1AE8EC00445B9C /* Advent23.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0311C1AE8EC00445B9C /* Advent23.png */; };
 		E816C0361C1AE8EC00445B9C /* Advent24.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0321C1AE8EC00445B9C /* Advent24.png */; };
 		E816C0381C1AE97500445B9C /* Advent25.png in Resources */ = {isa = PBXBuildFile; fileRef = E816C0371C1AE97500445B9C /* Advent25.png */; };
+		E816C03C1C1B1B2D00445B9C /* CalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E816C03B1C1B1B2D00445B9C /* CalLayout.swift */; };
 		E8AD0A451C19F10F00367DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AD0A441C19F10F00367DE5 /* AppDelegate.swift */; };
 		E8AD0A4A1C19F10F00367DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AD0A481C19F10F00367DE5 /* Main.storyboard */; };
 		E8AD0A4C1C19F10F00367DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AD0A4B1C19F10F00367DE5 /* Assets.xcassets */; };
@@ -81,6 +82,7 @@
 		E816C0311C1AE8EC00445B9C /* Advent23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent23.png; sourceTree = "<group>"; };
 		E816C0321C1AE8EC00445B9C /* Advent24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent24.png; sourceTree = "<group>"; };
 		E816C0371C1AE97500445B9C /* Advent25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advent25.png; sourceTree = "<group>"; };
+		E816C03B1C1B1B2D00445B9C /* CalLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalLayout.swift; sourceTree = "<group>"; };
 		E8AD0A411C19F10F00367DE5 /* AdventCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AD0A441C19F10F00367DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8AD0A491C19F10F00367DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,25 +114,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8AD0A381C19F10F00367DE5 = {
-			isa = PBXGroup;
-			children = (
-				E8AD0A431C19F10F00367DE5 /* AdventCalendar */,
-				E8AD0A581C19F10F00367DE5 /* AdventCalendarTests */,
-				E8AD0A421C19F10F00367DE5 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		E8AD0A421C19F10F00367DE5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E8AD0A411C19F10F00367DE5 /* AdventCalendar.app */,
-				E8AD0A551C19F10F00367DE5 /* AdventCalendarTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E8AD0A431C19F10F00367DE5 /* AdventCalendar */ = {
+		E816C03A1C1B1AE800445B9C /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				E816C0371C1AE97500445B9C /* Advent25.png */,
@@ -158,6 +142,32 @@
 				E816C0071C1AE1B500445B9C /* Advent1.png */,
 				E816C0091C1AE33900445B9C /* Advent2.png */,
 				E816C00B1C1AE46600445B9C /* Advent3.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E8AD0A381C19F10F00367DE5 = {
+			isa = PBXGroup;
+			children = (
+				E8AD0A431C19F10F00367DE5 /* AdventCalendar */,
+				E8AD0A581C19F10F00367DE5 /* AdventCalendarTests */,
+				E8AD0A421C19F10F00367DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8AD0A421C19F10F00367DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8AD0A411C19F10F00367DE5 /* AdventCalendar.app */,
+				E8AD0A551C19F10F00367DE5 /* AdventCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8AD0A431C19F10F00367DE5 /* AdventCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				E816C03A1C1B1AE800445B9C /* Images */,
 				E8AD0A441C19F10F00367DE5 /* AppDelegate.swift */,
 				E8AD0A481C19F10F00367DE5 /* Main.storyboard */,
 				E8AD0A4B1C19F10F00367DE5 /* Assets.xcassets */,
@@ -167,6 +177,7 @@
 				E8AD0A661C19F2C700367DE5 /* CalendarCell.swift */,
 				E816C0031C1ADBD400445B9C /* PictureCell.swift */,
 				E816C0051C1ADC1600445B9C /* NSDate.swift */,
+				E816C03B1C1B1B2D00445B9C /* CalLayout.swift */,
 			);
 			path = AdventCalendar;
 			sourceTree = "<group>";
@@ -308,6 +319,7 @@
 			files = (
 				E816C0041C1ADBD400445B9C /* PictureCell.swift in Sources */,
 				E8AD0A451C19F10F00367DE5 /* AppDelegate.swift in Sources */,
+				E816C03C1C1B1B2D00445B9C /* CalLayout.swift in Sources */,
 				E8AD0A671C19F2C700367DE5 /* CalendarCell.swift in Sources */,
 				E8AD0A651C19F14A00367DE5 /* CalendarCVC.swift in Sources */,
 				E816C0061C1ADC1600445B9C /* NSDate.swift in Sources */,

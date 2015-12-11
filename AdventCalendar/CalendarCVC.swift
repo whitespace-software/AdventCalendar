@@ -14,11 +14,12 @@ class CalendarCVC: UICollectionViewController {
 
     var dayToday : Int = 0
     var clickedToday = false
+    var myLayout = CalLayout()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.collectionView!.backgroundColor = UIColor.whiteColor()
+        self.collectionView!.backgroundColor = UIColor.blackColor()
         self.title = "Swift Advent Calendar"
         
         setDayToday()
@@ -46,9 +47,7 @@ class CalendarCVC: UICollectionViewController {
 
     func setDayToday()
     {
-        var dmy = NSDate().splitYMD()
-        dayToday = dmy[2]
-
+        dayToday = NSDate().splitYMD().d
     }
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

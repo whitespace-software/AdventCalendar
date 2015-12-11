@@ -8,10 +8,12 @@
 
 import Foundation
 
+typealias ymd = ( y : Int, m : Int, d : Int )
+
 extension NSDate {
-    func splitYMD() -> [Int] {
+    func splitYMD() -> ymd {
         let calendar = NSCalendar.currentCalendar()
         let c = calendar.components( [ NSCalendarUnit.Day, NSCalendarUnit.Month, NSCalendarUnit.Year ], fromDate: self )
-        return [ c.year, c.month, c.day ]
+        return ymd( y: c.year, m: c.month, d: c.day )
     }
 }
